@@ -26,6 +26,7 @@ from schemas.movies import (
 
 router = APIRouter()
 
+
 @router.get(
     "/movies/",
     response_model=MovieListResponseSchema,
